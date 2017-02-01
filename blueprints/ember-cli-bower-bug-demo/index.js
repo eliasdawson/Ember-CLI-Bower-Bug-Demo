@@ -1,12 +1,12 @@
 /*jshint node:true*/
 
-import Ember from 'ember';
+const RSVP = require('rsvp');
 
 module.exports = {
   description: 'Sample addon to demonstrate reported ember-cli bug',
 
   afterInstall: function(options) {
-    return Ember.RSVP.all([
+    return RSVP.all([
       this.addBowerPackageToProject('lodash'),
       this.addBowerPackageToProject('moment')
     ]);
