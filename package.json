@@ -1,17 +1,17 @@
 {
   "name": "ember-cli-bower-bug-demo",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Sample ember addon to demonstrate bug regarding bower.json",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Elias Dawson",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "git@github.com:eliasdawson/Ember-CLI-Bower-Bug-Demo.git",
   "scripts": {
     "build": "ember build",
     "start": "ember server",

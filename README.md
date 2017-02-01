@@ -1,6 +1,7 @@
 # ember-cli-bower-bug-demo
 
-This README outlines the details of collaborating on this Ember addon.
+Sample ember addon with minimal changes required to demonstrate bug regarding
+installing multiple bower dependencies in blueprint.
 
 ## Installation
 
